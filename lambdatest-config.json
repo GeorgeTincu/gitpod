@@ -26,7 +26,8 @@
       "specs": "./cypress/e2e/*cy.js",
       "ignore_files": "",
       "network": true,
-      "headless": false
+      "headless": false,
+      "screenshots": true
       
    },
    "tunnel_settings": {
