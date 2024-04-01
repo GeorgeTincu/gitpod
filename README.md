@@ -1,8 +1,4 @@
-"# cypress" 
-"# cypress" 
-"# cypress" 
-"# cypress" 
-"# cypress" 
-"# gitpod" 
-"# gitpod" 
-"# gitpod" changes
+"# To run from git pod:
+1: delete node_modules
+2: npm install
+3: npx cypress run"
