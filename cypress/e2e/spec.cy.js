@@ -13,5 +13,11 @@ describe("template spec", () => {
     cy.get(".action-form")
       .next()
       .should("have.text", "Your form has been submitted!");
+    cy.get(".action-blur").click();
+    cy.get(".action-blur").blur();
+    cy.get(".action-blur")
+      .should("have.class", "error")
+      .prev()
+      .should("have.attr", "style", "color: red;");
   });
 });
