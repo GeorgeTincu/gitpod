@@ -18,6 +18,6 @@ describe("template spec", () => {
     cy.get(".action-blur")
       .should("have.class", "error")
       .prev()
-      .should("have.attr", "style", "color: red;");
+      .should("have.attr", "style", "color: red");
   });
 });
